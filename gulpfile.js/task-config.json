@@ -1,0 +1,52 @@
+{
+  "html": {
+    "extensions": ["html"],
+
+    "htmlmin": {
+      "collapseWhitespace": true,
+      "preserveLineBreaks": true
+    }
+  },
+
+  "static": {
+    "extensions": ["png", "ico", "svg", "xml", "json"]
+  },
+
+  "javascripts": {
+    "extensions": ["js"]
+  },
+
+  "stylesheets": {
+    "extensions": ["scss", "sass"]
+  },
+
+  "images": {
+    "extensions": ["png", "jpg", "jpeg", "gif", "svg"]
+  },
+
+  "fonts": {
+    "extensions": ["woff", "woff2"]
+  },
+
+  "modernizr": {
+    "extensions": ["html", "js", "scss", "sass"]
+  },
+
+  "lint": true,
+
+  "generate-service-worker": {
+    "extensions": ["html", "ico", "xml", "json", "js", "css", "png", "jpg", "jpeg", "gif", "woff", "woff2"]
+  },
+
+  "browser-sync": {
+    "port": 9000,
+
+    "server": {
+      "baseDir": "dist"
+    },
+
+    "ui": {
+      "port": 9001
+    }
+  }
+}

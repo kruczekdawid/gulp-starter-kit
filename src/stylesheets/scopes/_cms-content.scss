@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Scopes / CMS Content
+   ========================================================================== */
+
+.s-cms-content {
+  p, ul, ol, h3, h4 {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  ul, ol {
+    margin-left: 1rem;
+  }
+
+  h3, h4 {
+    font-size: $subheading-font-size;
+    font-weight: $subheading-font-weight;
+  }
+
+  h4 {
+    font-size: $subheading-font-size * 0.75;
+  }
+
+  a {
+    text-decoration: none;
+    color: $brand-color;
+    transition: color .25s ease-out;
+
+    &:hover {
+      color: $primary-text-color;
+    }
+  }
+}

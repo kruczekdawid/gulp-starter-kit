@@ -1,0 +1,11 @@
+/* ==========================================================================
+   Tools / Image Replacement
+   ========================================================================== */
+
+@mixin image-replacement() {
+  border: 0 !important;
+  font: 0/0 a !important;
+  text-shadow: none !important;
+  color: transparent !important;
+  background-color: transparent !important;
+}

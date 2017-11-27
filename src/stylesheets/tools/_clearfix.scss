@@ -1,0 +1,11 @@
+/* ==========================================================================
+   Tools / Clearfix
+   ========================================================================== */
+
+@mixin clearfix() {
+  &:after {
+    display: block !important;
+    clear: both !important;
+    content: "" !important;
+  }
+}

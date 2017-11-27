@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Elements / Page
+   ========================================================================== */
+
+// @font-face {
+//   font-family: 'Font';
+//   src: url('../fonts/font-normal.woff2') format('woff2'),
+//        url('../fonts/font-normal.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: $text-font;
+  font-size: $text-font-size;
+  font-weight: $text-font-weight;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $primary-text-color;
+  background-color: $primary-color;
+}
